@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import questions from './data/questions.json';
 import QuizCard from './components/QuizCard';
+import helloKittyImage from './assets/hellokitty.jpg';
 
 export default function App() {
   const [current, setCurrent] = useState(0);
@@ -85,7 +86,7 @@ export default function App() {
 
         <div className="mt-8 text-center">
           <img
-            src="/09b6d92be95737f4e188f65be959caca.jpg"
+            src={helloKittyImage}
             alt="Hello Kitty Studying"
             className="mx-auto rounded-lg shadow-lg w-64"
           />
