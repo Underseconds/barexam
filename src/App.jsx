@@ -22,7 +22,7 @@ export default function App() {
   return (
     <div className="min-h-screen p-6 bg-white text-black">
       <div className="max-w-xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4">Bar Exam Quiz</h1>
+        <h1 className="text-2xl font-bold mb-4">Elizabeth's Bar Exam Quiz</h1>
         <h2 className="text-lg font-semibold mb-4">{question.question}</h2>
         <QuizCard question={question} selected={selected} handleAnswer={handleAnswer} />
         {showResult && (
