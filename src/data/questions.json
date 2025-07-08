@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "Evidence",
+    "question": "What is the hearsay rule?",
+    "choices": [
+      "Out-of-court statement offered to prove the truth of the matter asserted",
+      "Statement made under oath",
+      "In-court testimony",
+      "Cross-examined prior statements"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hearsay is any out-of-court statement offered to prove the truth of the matter asserted."
+  }
+]
