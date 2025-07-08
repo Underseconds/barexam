@@ -82,6 +82,14 @@ export default function App() {
         >
           Restart Quiz
         </button>
+
+        <div className="mt-8 text-center">
+          <img
+            src="/09b6d92be95737f4e188f65be959caca.jpg"
+            alt="Hello Kitty Studying"
+            className="mx-auto rounded-lg shadow-lg w-64"
+          />
+        </div>
       </div>
     </div>
   );
